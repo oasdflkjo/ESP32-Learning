@@ -19,10 +19,6 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // BMP280 defines and what ever bmp is called in this context. ??object??
 #define BMP_ADDRESS 0x76
 #define BMP_CHIPID 0x58
-#define BMP_SCK (13)
-#define BMP_MISO (12)
-#define BMP_MOSI (11)
-#define BMP_CS (10)
 Adafruit_BMP280 bmp;
 
 // display buffer
