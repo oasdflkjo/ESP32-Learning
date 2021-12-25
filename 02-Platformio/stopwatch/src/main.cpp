@@ -16,12 +16,11 @@ static int seconds = 0;
 static int minutes = 0;
 static int hours = 0;
 
-// declarations
-void myISR();
-void setup();
-void printdi(String message);
+// helper function declarations
 void update_time();
+void printdi(String message);
 void print_and_increment_time();
+void myISR();
 
 void setup()
 {
